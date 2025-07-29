@@ -1,0 +1,109 @@
+.ceo-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+.ceo-message h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.ceo-message p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.ceo-message img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.ceo-message a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.ceo-message a:hover {
+  color: #0056b3;
+}
+.ceo-message .message-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.ceo-message .message-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: calc(33.333% - 40px);
+  box-sizing: border-box;
+}
+.ceo-message .message-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.ceo-message .message-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.ceo-message .message-item p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+margin-bottom: 20px;
+}
+.ceo-message .message-item a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}             
+.project .project-item a:hover {
+    color: #0056b3;
+}
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .ceo-message .message-item {
+        width: calc(100% - 40px);
+   }
+}
+/* Additional styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .ceo-message {
+    padding: 10px;
+  }
+  .ceo-message h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .ceo-message p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .ceo-message img {
+    margin-bottom: 15px;
+  }
+}   
+@media (max-width: 768px) {
+  .project .project-item {
+    width: calc(50% - 20px);
+  }
+}
+@media (max-width: 480px) {
+  .project .project-item {
+    width: calc(100% - 20px);
+  }
+    
+}
+/* Compare this snippet from template/src/components/5.Ceo-message/ceo-message.css: */
