@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero_content">
-        <h1 className="hero_title">ABS Констракшн</h1>
+        <h1 className="hero_title">Монгол Барилга Групп</h1>
         <p className="hero_description">
           Монголын тэргүүлэгч барилгын компани. 20+ жилийн туршлагатай,
           чанартай, найдвартай, бүтээлч шийдэл бүхий төслүүдийг амжилттай

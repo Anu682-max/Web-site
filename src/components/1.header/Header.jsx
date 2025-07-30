@@ -6,7 +6,7 @@ const Header = () => {
       <div className="Header__left">
         <a href="#home" className="logo">
           <img src="/vite.svg" alt="Vite logo" className="Header__logo" />
-          <span className="Header__brand">ABS Констракшн</span>
+          <span className="Header__brand">Монгол Барилга Групп</span>
         </a>
       </div>
       <nav className="Header__nav">
@@ -19,6 +19,9 @@ const Header = () => {
           </li>
           <li>
             <a href="#service">Үйлчилгээ</a>
+          </li>
+          <li>
+            <a href="#animals">Мал Аж Ахуй</a>
           </li>
           <li>
             <a href="#project">Төслүүд</a>

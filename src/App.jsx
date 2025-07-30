@@ -5,17 +5,25 @@ import Contact from "./components/6.Contact/contact";
 import Footer from "./components/7.footer/footer";
 import Header from "./components/1.header/Header";
 import Hero from "./components/2.Hero/hero";
+import Animals from "./components/8.animals/animals";
+import "./App.css";
+
 function App() {
   return (
-    <>
+    <div className="app-container">
       <Header />
-      <Hero />
-      <Service />
-      <Project />
-      <CeoMessage />
-      <Contact />
+      <main className="main-content">
+        <Hero />
+        <div className="content-sections">
+          <Service />
+          <Animals />
+          <Project />
+          <CeoMessage />
+          <Contact />
+        </div>
+      </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

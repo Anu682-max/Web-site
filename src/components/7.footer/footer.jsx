@@ -16,7 +16,7 @@ const Footer = () => {
           </a>
         </div>
         <p className="footer_copyright">
-          &copy; {new Date().getFullYear()} ABS Констракшн. Бүх эрх хуулиар
+          &copy; {new Date().getFullYear()} Монгол Барилга Групп. Бүх эрх хуулиар
           хамгаалагдсан.
         </p>
       </div>
