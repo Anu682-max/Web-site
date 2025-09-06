@@ -1,0 +1,19 @@
+{
+  "name": "abs-consraction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run dev --prefix template",
+    "dev": "npm run dev --prefix template",
+    "build": "npm run build --prefix template",
+    "preview": "npm run preview --prefix template"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "vite": "^7.0.6"
+  }
+}
